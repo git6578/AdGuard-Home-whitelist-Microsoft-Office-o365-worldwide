@@ -1,0 +1,851 @@
+# Service: Exchange Online (Exchange)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Optimize
+# URLs:
+@@||outlook.cloud.microsoft^$important,ctag=device_other
+@@||outlook.office.com^$important,ctag=device_other
+@@||outlook.office365.com^$important,ctag=device_other
+# IP Addresses:
+@@||13.107.6.152/31^$important,ctag=device_other
+@@||13.107.18.10/31^$important,ctag=device_other
+@@||13.107.128.0/22^$important,ctag=device_other
+@@||23.103.160.0/20^$important,ctag=device_other
+@@||40.96.0.0/13^$important,ctag=device_other
+@@||40.104.0.0/15^$important,ctag=device_other
+@@||52.96.0.0/14^$important,ctag=device_other
+@@||131.253.33.215/32^$important,ctag=device_other
+@@||132.245.0.0/16^$important,ctag=device_other
+@@||150.171.32.0/22^$important,ctag=device_other
+@@||204.79.197.215/32^$important,ctag=device_other
+@@||2603:1006::/40^$important,ctag=device_other
+@@||2603:1016::/36^$important,ctag=device_other
+@@||2603:1026::/36^$important,ctag=device_other
+@@||2603:1036::/36^$important,ctag=device_other
+@@||2603:1046::/36^$important,ctag=device_other
+@@||2603:1056::/36^$important,ctag=device_other
+@@||2620:1ec:4::152/128^$important,ctag=device_other
+@@||2620:1ec:4::153/128^$important,ctag=device_other
+@@||2620:1ec:c::10/128^$important,ctag=device_other
+@@||2620:1ec:c::11/128^$important,ctag=device_other
+@@||2620:1ec:d::10/128^$important,ctag=device_other
+@@||2620:1ec:d::11/128^$important,ctag=device_other
+@@||2620:1ec:8f0::/46^$important,ctag=device_other
+@@||2620:1ec:900::/46^$important,ctag=device_other
+@@||2620:1ec:a92::152/128^$important,ctag=device_other
+@@||2620:1ec:a92::153/128^$important,ctag=device_other
+# TCP Ports: 80,443
+# UDP Ports: 443
+
+# Service: Exchange Online (Exchange)
+# Notes: POP3, IMAP4, SMTP Client traffic
+# ExpressRoute: Yes
+# Required: No
+# Category: Allow
+# URLs:
+@@||outlook.office365.com^$important,ctag=device_other
+@@||smtp.office365.com^$important,ctag=device_other
+# IP Addresses:
+@@||13.107.6.152/31^$important,ctag=device_other
+@@||13.107.18.10/31^$important,ctag=device_other
+@@||13.107.128.0/22^$important,ctag=device_other
+@@||23.103.160.0/20^$important,ctag=device_other
+@@||40.96.0.0/13^$important,ctag=device_other
+@@||40.104.0.0/15^$important,ctag=device_other
+@@||52.96.0.0/14^$important,ctag=device_other
+@@||131.253.33.215/32^$important,ctag=device_other
+@@||132.245.0.0/16^$important,ctag=device_other
+@@||150.171.32.0/22^$important,ctag=device_other
+@@||204.79.197.215/32^$important,ctag=device_other
+@@||2603:1006::/40^$important,ctag=device_other
+@@||2603:1016::/36^$important,ctag=device_other
+@@||2603:1026::/36^$important,ctag=device_other
+@@||2603:1036::/36^$important,ctag=device_other
+@@||2603:1046::/36^$important,ctag=device_other
+@@||2603:1056::/36^$important,ctag=device_other
+@@||2620:1ec:4::152/128^$important,ctag=device_other
+@@||2620:1ec:4::153/128^$important,ctag=device_other
+@@||2620:1ec:c::10/128^$important,ctag=device_other
+@@||2620:1ec:c::11/128^$important,ctag=device_other
+@@||2620:1ec:d::10/128^$important,ctag=device_other
+@@||2620:1ec:d::11/128^$important,ctag=device_other
+@@||2620:1ec:8f0::/46^$important,ctag=device_other
+@@||2620:1ec:900::/46^$important,ctag=device_other
+@@||2620:1ec:a92::152/128^$important,ctag=device_other
+@@||2620:1ec:a92::153/128^$important,ctag=device_other
+# TCP Ports: 143, 587, 993, 995
+
+# Service: Exchange Online (Exchange)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.outlook.com^$important,ctag=device_other
+@@||autodiscover.*.onmicrosoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Exchange Online (Exchange)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Allow
+# URLs:
+@@||*.protection.outlook.com^$important,ctag=device_other
+# IP Addresses:
+@@||40.92.0.0/15^$important,ctag=device_other
+@@||40.107.0.0/16^$important,ctag=device_other
+@@||52.100.0.0/14^$important,ctag=device_other
+@@||52.238.78.88/32^$important,ctag=device_other
+@@||104.47.0.0/17^$important,ctag=device_other
+@@||2a01:111:f400::/48^$important,ctag=device_other
+@@||2a01:111:f403::/48^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Exchange Online (Exchange)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Allow
+# URLs:
+@@||*.mail.protection.outlook.com^$important,ctag=device_other
+@@||*.mx.microsoft^$important,ctag=device_other
+# IP Addresses:
+@@||40.92.0.0/15^$important,ctag=device_other
+@@||40.107.0.0/16^$important,ctag=device_other
+@@||52.100.0.0/14^$important,ctag=device_other
+@@||104.47.0.0/17^$important,ctag=device_other
+@@||2a01:111:f400::/48^$important,ctag=device_other
+@@||2a01:111:f403::/48^$important,ctag=device_other
+# TCP Ports: 25
+
+# Service: Microsoft Teams (Skype)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Optimize
+# IP Addresses:
+@@||52.112.0.0/14^$important,ctag=device_other
+@@||52.122.0.0/15^$important,ctag=device_other
+@@||2603:1063::/38^$important,ctag=device_other
+# UDP Ports: 3478,3479,3480,3481
+
+# Service: Microsoft Teams (Skype)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Allow
+# URLs:
+@@||*.lync.com^$important,ctag=device_other
+@@||*.teams.cloud.microsoft^$important,ctag=device_other
+@@||*.teams.microsoft.com^$important,ctag=device_other
+@@||teams.cloud.microsoft^$important,ctag=device_other
+@@||teams.microsoft.com^$important,ctag=device_other
+# IP Addresses:
+@@||52.112.0.0/14^$important,ctag=device_other
+@@||52.122.0.0/15^$important,ctag=device_other
+@@||52.238.119.141/32^$important,ctag=device_other
+@@||52.244.160.207/32^$important,ctag=device_other
+@@||2603:1027::/48^$important,ctag=device_other
+@@||2603:1037::/48^$important,ctag=device_other
+@@||2603:1047::/48^$important,ctag=device_other
+@@||2603:1057::/48^$important,ctag=device_other
+@@||2603:1063::/38^$important,ctag=device_other
+@@||2620:1ec:6::/48^$important,ctag=device_other
+@@||2620:1ec:40::/42^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft Teams (Skype)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.keydelivery.mediaservices.windows.net^$important,ctag=device_other
+@@||*.streaming.mediaservices.windows.net^$important,ctag=device_other
+@@||mlccdn.blob.core.windows.net^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft Teams (Skype)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||aka.ms^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft Teams (Skype)
+# Notes: Federation with Skype and public IM connectivity: Contact picture retrieval
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.users.storage.live.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft Teams (Skype)
+# Notes: Applies only to those who deploy the Conference Room Systems
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||adl.windows.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft Teams (Skype)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.secure.skypeassets.com^$important,ctag=device_other
+@@||mlccdnprod.azureedge.net^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: SharePoint Online and OneDrive for Business (SharePoint)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Optimize
+# URLs:
+@@||*.sharepoint.com^$important,ctag=device_other
+# IP Addresses:
+@@||13.107.136.0/22^$important,ctag=device_other
+@@||40.108.128.0/17^$important,ctag=device_other
+@@||52.104.0.0/14^$important,ctag=device_other
+@@||104.146.128.0/17^$important,ctag=device_other
+@@||150.171.40.0/22^$important,ctag=device_other
+@@||2603:1061:1300::/40^$important,ctag=device_other
+@@||2603:1063:6000::/35^$important,ctag=device_other
+@@||2620:1ec:8f8::/46^$important,ctag=device_other
+@@||2620:1ec:908::/46^$important,ctag=device_other
+@@||2a01:111:f402::/48^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: SharePoint Online and OneDrive for Business (SharePoint)
+# Notes: OneDrive for Business: supportability, telemetry, APIs, and embedded email links
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||ssw.live.com^$important,ctag=device_other
+@@||storage.live.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: SharePoint Online and OneDrive for Business (SharePoint)
+# Notes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.search.production.apac.trafficmanager.net^$important,ctag=device_other
+@@||*.search.production.emea.trafficmanager.net^$important,ctag=device_other
+@@||*.search.production.us.trafficmanager.net^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: SharePoint Online and OneDrive for Business (SharePoint)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.wns.windows.com^$important,ctag=device_other
+@@||admin.onedrive.com^$important,ctag=device_other
+@@||officeclient.microsoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: SharePoint Online and OneDrive for Business (SharePoint)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||g.live.com^$important,ctag=device_other
+@@||oneclient.sfx.ms^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: SharePoint Online and OneDrive for Business (SharePoint)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.sharepointonline.com^$important,ctag=device_other
+@@||spoprod-a.akamaihd.net^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: SharePoint Online and OneDrive for Business (SharePoint)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.svc.ms^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Allow
+# URLs:
+@@||*.officeapps.live.com^$important,ctag=device_other
+@@||*.online.office.com^$important,ctag=device_other
+@@||office.live.com^$important,ctag=device_other
+# IP Addresses:
+@@||13.107.6.171/32^$important,ctag=device_other
+@@||13.107.18.15/32^$important,ctag=device_other
+@@||13.107.140.6/32^$important,ctag=device_other
+@@||52.108.0.0/14^$important,ctag=device_other
+@@||52.244.37.168/32^$important,ctag=device_other
+@@||2603:1006:1400::/40^$important,ctag=device_other
+@@||2603:1016:2400::/40^$important,ctag=device_other
+@@||2603:1026:2400::/40^$important,ctag=device_other
+@@||2603:1036:2400::/40^$important,ctag=device_other
+@@||2603:1046:1400::/40^$important,ctag=device_other
+@@||2603:1056:1400::/40^$important,ctag=device_other
+@@||2603:1063:2000::/38^$important,ctag=device_other
+@@||2620:1ec:c::15/128^$important,ctag=device_other
+@@||2620:1ec:8fc::6/128^$important,ctag=device_other
+@@||2620:1ec:a92::171/128^$important,ctag=device_other
+@@||2a01:111:f100:2000::a83e:3019/128^$important,ctag=device_other
+@@||2a01:111:f100:2002::8975:2d79/128^$important,ctag=device_other
+@@||2a01:111:f100:2002::8975:2da8/128^$important,ctag=device_other
+@@||2a01:111:f100:7000::6fdd:6cd5/128^$important,ctag=device_other
+@@||2a01:111:f100:a004::bfeb:88cf/128^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.office.net^$important,ctag=device_other
+# TCP Ports: 443,80
+# UDP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.onenote.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: OneNote notebooks (wildcards)
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.microsoft.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*cdn.onenote.net^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||ajax.aspnetcdn.com^$important,ctag=device_other
+@@||apis.live.net^$important,ctag=device_other
+@@||officeapps.live.com^$important,ctag=device_other
+@@||www.onedrive.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Allow
+# URLs:
+@@||*.auth.microsoft.com^$important,ctag=device_other
+@@||*.msftidentity.com^$important,ctag=device_other
+@@||*.msidentity.com^$important,ctag=device_other
+@@||account.activedirectory.windowsazure.com^$important,ctag=device_other
+@@||accounts.accesscontrol.windows.net^$important,ctag=device_other
+@@||adminwebservice.microsoftonline.com^$important,ctag=device_other
+@@||api.passwordreset.microsoftonline.com^$important,ctag=device_other
+@@||autologon.microsoftazuread-sso.com^$important,ctag=device_other
+@@||becws.microsoftonline.com^$important,ctag=device_other
+@@||ccs.login.microsoftonline.com^$important,ctag=device_other
+@@||clientconfig.microsoftonline-p.net^$important,ctag=device_other
+@@||companymanager.microsoftonline.com^$important,ctag=device_other
+@@||device.login.microsoftonline.com^$important,ctag=device_other
+@@||graph.microsoft.com^$important,ctag=device_other
+@@||graph.windows.net^$important,ctag=device_other
+@@||login-us.microsoftonline.com^$important,ctag=device_other
+@@||login.microsoft.com^$important,ctag=device_other
+@@||login.microsoftonline-p.com^$important,ctag=device_other
+@@||login.microsoftonline.com^$important,ctag=device_other
+@@||login.windows.net^$important,ctag=device_other
+@@||logincert.microsoftonline.com^$important,ctag=device_other
+@@||loginex.microsoftonline.com^$important,ctag=device_other
+@@||nexus.microsoftonline-p.com^$important,ctag=device_other
+@@||passwordreset.microsoftonline.com^$important,ctag=device_other
+@@||provisioningapi.microsoftonline.com^$important,ctag=device_other
+# IP Addresses:
+@@||20.20.32.0/19^$important,ctag=device_other
+@@||20.190.128.0/18^$important,ctag=device_other
+@@||20.231.128.0/19^$important,ctag=device_other
+@@||40.126.0.0/18^$important,ctag=device_other
+@@||2603:1006:2000::/48^$important,ctag=device_other
+@@||2603:1007:200::/48^$important,ctag=device_other
+@@||2603:1016:1400::/48^$important,ctag=device_other
+@@||2603:1017::/48^$important,ctag=device_other
+@@||2603:1026:3000::/48^$important,ctag=device_other
+@@||2603:1027:1::/48^$important,ctag=device_other
+@@||2603:1036:3000::/48^$important,ctag=device_other
+@@||2603:1037:1::/48^$important,ctag=device_other
+@@||2603:1046:2000::/48^$important,ctag=device_other
+@@||2603:1047:1::/48^$important,ctag=device_other
+@@||2603:1056:2000::/48^$important,ctag=device_other
+@@||2603:1057:2::/48^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.hip.live.com^$important,ctag=device_other
+@@||*.microsoftonline-p.com^$important,ctag=device_other
+@@||*.microsoftonline.com^$important,ctag=device_other
+@@||*.msauth.net^$important,ctag=device_other
+@@||*.msauthimages.net^$important,ctag=device_other
+@@||*.msecnd.net^$important,ctag=device_other
+@@||*.msftauth.net^$important,ctag=device_other
+@@||*.msftauthimages.net^$important,ctag=device_other
+@@||*.phonefactor.net^$important,ctag=device_other
+@@||enterpriseregistration.windows.net^$important,ctag=device_other
+@@||policykeyservice.dc.ad.msft.net^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: Yes
+# Required: Yes
+# Category: Allow
+# URLs:
+@@||*.protection.office.com^$important,ctag=device_other
+@@||*.security.microsoft.com^$important,ctag=device_other
+@@||compliance.microsoft.com^$important,ctag=device_other
+@@||defender.microsoft.com^$important,ctag=device_other
+@@||protection.office.com^$important,ctag=device_other
+@@||purview.microsoft.com^$important,ctag=device_other
+@@||security.microsoft.com^$important,ctag=device_other
+# IP Addresses:
+@@||13.107.6.192/32^$important,ctag=device_other
+@@||13.107.9.192/32^$important,ctag=device_other
+@@||2620:1ec:4::192/128^$important,ctag=device_other
+@@||2620:1ec:a92::192/128^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.portal.cloudappsecurity.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Portal and shared: 3rd party office integration. (including CDNs)
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||firstpartyapps.oaspapps.com^$important,ctag=device_other
+@@||prod.firstpartyapps.oaspapps.com.akadns.net^$important,ctag=device_other
+@@||telemetryservice.firstpartyapps.oaspapps.com^$important,ctag=device_other
+@@||wus-firstpartyapps.oaspapps.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.aria.microsoft.com^$important,ctag=device_other
+@@||*.events.data.microsoft.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.o365weve.com^$important,ctag=device_other
+@@||amp.azure.net^$important,ctag=device_other
+@@||appsforoffice.microsoft.com^$important,ctag=device_other
+@@||assets.onestore.ms^$important,ctag=device_other
+@@||auth.gfx.ms^$important,ctag=device_other
+@@||c1.microsoft.com^$important,ctag=device_other
+@@||dgps.support.microsoft.com^$important,ctag=device_other
+@@||docs.microsoft.com^$important,ctag=device_other
+@@||msdn.microsoft.com^$important,ctag=device_other
+@@||platform.linkedin.com^$important,ctag=device_other
+@@||prod.msocdn.com^$important,ctag=device_other
+@@||shellprod.msocdn.com^$important,ctag=device_other
+@@||support.microsoft.com^$important,ctag=device_other
+@@||technet.microsoft.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.office365.com^$important,ctag=device_other
+# TCP Ports: 443,80
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.aadrm.com^$important,ctag=device_other
+@@||*.azurerms.com^$important,ctag=device_other
+@@||*.informationprotection.azure.com^$important,ctag=device_other
+@@||ecn.dev.virtualearth.net^$important,ctag=device_other
+@@||informationprotection.hosting.portal.azure.net^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.sharepointonline.com^$important,ctag=device_other
+@@||dc.services.visualstudio.com^$important,ctag=device_other
+@@||mem.gfx.ms^$important,ctag=device_other
+@@||staffhub.ms^$important,ctag=device_other
+@@||staffhubweb.azureedge.net^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards.
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.microsoft.com^$important,ctag=device_other
+@@||*.msocdn.com^$important,ctag=device_other
+@@||*.onmicrosoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||o15.officeredir.microsoft.com^$important,ctag=device_other
+@@||officepreviewredir.microsoft.com^$important,ctag=device_other
+@@||officeredir.microsoft.com^$important,ctag=device_other
+@@||r.office.microsoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||activation.sls.microsoft.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||crl.microsoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||office15client.microsoft.com^$important,ctag=device_other
+@@||officeclient.microsoft.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||go.microsoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||ajax.aspnetcdn.com^$important,ctag=device_other
+@@||cdn.odc.officeapps.live.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||officecdn.microsoft.com^$important,ctag=device_other
+@@||officecdn.microsoft.com.edgesuite.net^$important,ctag=device_other
+@@||otelrules.azureedge.net^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: ProPlus: auxiliary URLs
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.virtualearth.net^$important,ctag=device_other
+@@||c.bing.net^$important,ctag=device_other
+@@||ocos-office365-s2s.msedge.net^$important,ctag=device_other
+@@||tse1.mm.bing.net^$important,ctag=device_other
+@@||www.bing.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Outlook for Android and iOS
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.acompli.net^$important,ctag=device_other
+@@||*.outlookmobile.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Outlook for Android and iOS: Authentication
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||login.windows-ppe.net^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Outlook for Android and iOS: Consumer Outlook.com and OneDrive integration
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||account.live.com^$important,ctag=device_other
+@@||login.live.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Outlook for Android and iOS: Outlook Privacy
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||www.acompli.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Office Mobile URLs
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.appex-rf.msn.com^$important,ctag=device_other
+@@||*.appex.bing.com^$important,ctag=device_other
+@@||c.bing.com^$important,ctag=device_other
+@@||c.live.com^$important,ctag=device_other
+@@||d.docs.live.net^$important,ctag=device_other
+@@||docs.live.net^$important,ctag=device_other
+@@||partnerservices.getmicrosoftkey.com^$important,ctag=device_other
+@@||signup.live.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Office for iPad URLs
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||account.live.com^$important,ctag=device_other
+@@||auth.gfx.ms^$important,ctag=device_other
+@@||login.live.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Yammer
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.yammer.com^$important,ctag=device_other
+@@||*.yammerusercontent.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Yammer CDN
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.assets-yammer.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Planner: auxiliary URLs
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||www.outlook.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Sway CDNs
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||eus-www.sway-cdn.com^$important,ctag=device_other
+@@||eus-www.sway-extensions.com^$important,ctag=device_other
+@@||wus-www.sway-cdn.com^$important,ctag=device_other
+@@||wus-www.sway-extensions.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Sway
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||sway.com^$important,ctag=device_other
+@@||www.sway.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.entrust.net^$important,ctag=device_other
+@@||*.geotrust.com^$important,ctag=device_other
+@@||*.omniroot.com^$important,ctag=device_other
+@@||*.public-trust.com^$important,ctag=device_other
+@@||*.symcb.com^$important,ctag=device_other
+@@||*.symcd.com^$important,ctag=device_other
+@@||*.verisign.com^$important,ctag=device_other
+@@||*.verisign.net^$important,ctag=device_other
+@@||apps.identrust.com^$important,ctag=device_other
+@@||cacerts.digicert.com^$important,ctag=device_other
+@@||cert.int-x3.letsencrypt.org^$important,ctag=device_other
+@@||crl.globalsign.com^$important,ctag=device_other
+@@||crl.globalsign.net^$important,ctag=device_other
+@@||crl.identrust.com^$important,ctag=device_other
+@@||crl3.digicert.com^$important,ctag=device_other
+@@||crl4.digicert.com^$important,ctag=device_other
+@@||isrg.trustid.ocsp.identrust.com^$important,ctag=device_other
+@@||mscrl.microsoft.com^$important,ctag=device_other
+@@||ocsp.digicert.com^$important,ctag=device_other
+@@||ocsp.globalsign.com^$important,ctag=device_other
+@@||ocsp.msocsp.com^$important,ctag=device_other
+@@||ocsp2.globalsign.com^$important,ctag=device_other
+@@||ocspx.digicert.com^$important,ctag=device_other
+@@||secure.globalsign.com^$important,ctag=device_other
+@@||www.digicert.com^$important,ctag=device_other
+@@||www.microsoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: Connection to the speech service is required for Office Dictation features. If connectivity is not allowed, Dictation will be disabled.
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||officespeech.platform.bing.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft Teams (Skype)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.skype.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.office.com^$important,ctag=device_other
+@@||www.microsoft365.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# Notes: These endpoints enable the Office Scripts functionality in Office clients available through the Automate tab and the Python in Excel functionality available through the Formulas tab. The Office Scripts feature can also be disabled through the Office 365 Admin portal. For admin controls related to Python in Excel, see [Data security and Python in Excel](https://support.microsoft.com/office/data-security-and-python-in-excel-33cc88a4-4a87-485e-9ff9-f35958278327).
+# ExpressRoute: No
+# Required: No
+# Category: Default
+# URLs:
+@@||*.microsoftusercontent.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.azure-apim.net^$important,ctag=device_other
+@@||*.flow.microsoft.com^$important,ctag=device_other
+@@||*.powerapps.com^$important,ctag=device_other
+@@||*.powerautomate.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.activity.windows.com^$important,ctag=device_other
+@@||activity.windows.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.cortana.ai^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||admin.microsoft.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||cdn.odc.officeapps.live.com^$important,ctag=device_other
+@@||cdn.uci.officeapps.live.com^$important,ctag=device_other
+# TCP Ports: 80,443
+
+# Service: Microsoft Teams (Skype)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||compass-ssl.microsoft.com^$important,ctag=device_other
+# TCP Ports: 443
+
+# Service: Microsoft 365 Common and Office Online (Common)
+# ExpressRoute: No
+# Required: Yes
+# Category: Default
+# URLs:
+@@||*.cloud.microsoft^$important,ctag=device_other
+@@||*.static.microsoft^$important,ctag=device_other
+@@||*.usercontent.microsoft^$important,ctag=device_other
+# TCP Ports: 443,80
+# UDP Ports: 443
