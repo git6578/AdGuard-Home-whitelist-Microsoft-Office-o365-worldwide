@@ -1,6 +1,6 @@
 I found the App statement "Device is unhealthy" to be determined by blocked DNS requests. Therefore I created this whitelist.
 
-Add the RAW .txt file URL per http://AdGuard:3000/#dns_allowlists
+Add the RAW URL https://raw.githubusercontent.com/git6578/AdGuard-Home-whitelist-Microsoft-Office-o365-worldwide/refs/heads/main/o365_Whitelist.txt into http://AdGuard:3000/#dns_allowlists
 
 Give device_other ctag to work devices or other desired clients
 
